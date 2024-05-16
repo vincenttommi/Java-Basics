@@ -10,7 +10,7 @@
 // }
 public class Switch{
     public static void main(String[] args){
-        int  day  =  7;
+        int  day  =  1;
 switch(day){
     case 1:
     System.out.println("monday");
@@ -33,6 +33,7 @@ switch(day){
     case 7 : 
     System.out.println("Sunday");
     break;
+    //when java reaches  out of switch block and the excution stops and when a match is found the job is done
 
 }
     }
